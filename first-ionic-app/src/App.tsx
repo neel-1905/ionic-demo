@@ -46,6 +46,7 @@ import "@ionic/react/css/palettes/dark.system.css";
 import "./theme/variables.css";
 
 import { defineCustomElements } from "@ionic/pwa-elements/loader";
+import Tab4 from "./pages/Tab4";
 
 setupIonicReact();
 
@@ -62,14 +63,17 @@ const App: React.FC = () => (
           <Route exact path="/tab2">
             <Tab2 />
           </Route>
-          <Route path="/tab3">
+          <Route exact path="/tab3">
             <Tab3 />
+          </Route>
+          <Route exact path="/tab4">
+            <Tab4 />
           </Route>
           <Route exact path="/">
             <Redirect to="/tab1" />
           </Route>
         </IonRouterOutlet>
-        <IonTabBar slot="bottom">
+        <IonTabBar slot="bottom" className="bg-none">
           <IonTabButton tab="tab1" href="/tab1">
             <IonIcon aria-hidden="true" icon={triangle} />
             <IonLabel>Tab 1</IonLabel>
@@ -81,6 +85,10 @@ const App: React.FC = () => (
           <IonTabButton tab="tab3" href="/tab3">
             <IonIcon aria-hidden="true" icon={square} />
             <IonLabel>Tab 3</IonLabel>
+          </IonTabButton>
+          <IonTabButton tab="tab4" href="/tab4">
+            <IonIcon aria-hidden="true" icon={triangle} />
+            <IonLabel>Tab 4</IonLabel>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>

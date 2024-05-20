@@ -1,0 +1,75 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "id": 3,
+      "first_name": "Winn",
+      "last_name": "Eckels",
+      "email": "weckels2@studiopress.com"
+    },
+    {
+      "id": 4,
+      "first_name": "Cam",
+      "last_name": "Lorent",
+      "email": "clorent3@facebook.com"
+    },
+    {
+      "id": 5,
+      "first_name": "Xylia",
+      "last_name": "Engelbrecht",
+      "email": "xengelbrecht4@guardian.co.uk"
+    },
+    {
+      "id": 6,
+      "first_name": "Delano",
+      "last_name": "Raulin",
+      "email": "draulin5@opensource.org"
+    },
+    {
+      "id": 7,
+      "first_name": "Rey",
+      "last_name": "Marfe",
+      "email": "rmarfe6@globo.com"
+    },
+    {
+      "id": 8,
+      "first_name": "Zoe",
+      "last_name": "Tackle",
+      "email": "ztackle7@boston.com"
+    },
+    {
+      "id": 9,
+      "first_name": "Ingaberg",
+      "last_name": "Molloy",
+      "email": "imolloy8@kickstarter.com"
+    },
+    {
+      "first_name": "Neel",
+      "last_name": "Narwadkar",
+      "email": "neel@gmail.com",
+      "id": 10
+    },
+    {
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "jdoe@gmail.com",
+      "id": 11
+    }
+  ]
+}
